@@ -101,6 +101,7 @@
             this.listView_log.TabIndex = 13;
             this.listView_log.UseCompatibleStateImageBehavior = false;
             this.listView_log.View = System.Windows.Forms.View.List;
+            this.listView_log.SelectedIndexChanged += new System.EventHandler(this.listView_log_SelectedIndexChanged);
             // 
             // button_stop_server
             // 
@@ -131,6 +132,7 @@
             this.button_start_server.TabIndex = 10;
             this.button_start_server.Text = "Start";
             this.button_start_server.UseVisualStyleBackColor = false;
+            this.button_start_server.Click += new System.EventHandler(this.button_start_server_Click);
             // 
             // textBox_room_count
             // 

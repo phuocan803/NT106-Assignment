@@ -16,5 +16,14 @@ namespace From_Sever_1
         {
             InitializeComponent();
         }
+
+        private void button_start_server_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void listView_log_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
