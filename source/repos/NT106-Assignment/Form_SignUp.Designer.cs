@@ -252,7 +252,7 @@ namespace NT106_Assignment
             this.Button_SignIn.Text = "SIGN UP";
             this.Button_SignIn.UseCompatibleTextRendering = true;
             this.Button_SignIn.UseVisualStyleBackColor = false;
-            this.Button_SignIn.Click += new System.EventHandler(this.Label_SignUp_Click);
+            this.Button_SignIn.Click += new System.EventHandler(this.Button_SignUp_Click);
             // 
             // Form_SignUp
             // 
