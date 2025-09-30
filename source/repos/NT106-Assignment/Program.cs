@@ -16,9 +16,7 @@ namespace NT106_Assignment
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form_Client());
             Application.Run(new Form_Login());
-
         }
     }
 }

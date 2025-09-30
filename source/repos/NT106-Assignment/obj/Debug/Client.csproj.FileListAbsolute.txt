@@ -1,0 +1,13 @@
+C:\Users\FPTShop\NT106-Assignment\NT106-Assignment\source\repos\NT106-Assignment\bin\Debug\NT106-Assignment.exe.config
+C:\Users\FPTShop\NT106-Assignment\NT106-Assignment\source\repos\NT106-Assignment\bin\Debug\NT106-Assignment.exe
+C:\Users\FPTShop\NT106-Assignment\NT106-Assignment\source\repos\NT106-Assignment\bin\Debug\NT106-Assignment.pdb
+C:\Users\FPTShop\NT106-Assignment\NT106-Assignment\source\repos\NT106-Assignment\obj\Debug\Client.csproj.AssemblyReference.cache
+C:\Users\FPTShop\NT106-Assignment\NT106-Assignment\source\repos\NT106-Assignment\obj\Debug\NT106-Assignment.exe.config
+C:\Users\FPTShop\NT106-Assignment\NT106-Assignment\source\repos\NT106-Assignment\obj\Debug\NT106_Assignment.Form_Client.resources
+C:\Users\FPTShop\NT106-Assignment\NT106-Assignment\source\repos\NT106-Assignment\obj\Debug\NT106_Assignment.Properties.Resources.resources
+C:\Users\FPTShop\NT106-Assignment\NT106-Assignment\source\repos\NT106-Assignment\obj\Debug\Client.csproj.GenerateResource.cache
+C:\Users\FPTShop\NT106-Assignment\NT106-Assignment\source\repos\NT106-Assignment\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\FPTShop\NT106-Assignment\NT106-Assignment\source\repos\NT106-Assignment\obj\Debug\NT106-Assignment.exe
+C:\Users\FPTShop\NT106-Assignment\NT106-Assignment\source\repos\NT106-Assignment\obj\Debug\NT106-Assignment.pdb
+C:\Users\FPTShop\NT106-Assignment\NT106-Assignment\source\repos\NT106-Assignment\obj\Debug\NT106_Assignment.Form_Login.resources
+C:\Users\FPTShop\NT106-Assignment\NT106-Assignment\source\repos\NT106-Assignment\obj\Debug\NT106_Assignment.Form_SignUp.resources
