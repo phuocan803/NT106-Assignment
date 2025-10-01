@@ -8,6 +8,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using System.Drawing;
+
 namespace NT106_Assignment.Properties
 {
 
@@ -24,7 +26,13 @@ namespace NT106_Assignment.Properties
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources
     {
-
+        internal static Image pencil_12702592;
+        internal static Image divider_16027183;
+        internal static Image dry_clean_2404769;
+        internal static Image tablet_2888981;
+        internal static Image folder_6339191;
+        internal static Image pencil_15589285;
+        internal static Image eraser_7614008__1_;
         private static global::System.Resources.ResourceManager resourceMan;
 
         private static global::System.Globalization.CultureInfo resourceCulture;
