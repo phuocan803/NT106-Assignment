@@ -3,48 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\bean\\Documents\\git\\NT106-Assignment\\source\\repos\\NT106-Assignment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|c:\\users\\bean\\documents\\git\\nt106-assignment\\source\\repos\\nt106-assignment\\form_login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|solutionrelative:form_login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|c:\\users\\bean\\documents\\git\\nt106-assignment\\source\\repos\\nt106-assignment\\form_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|solutionrelative:form_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|C:\\Users\\bean\\Documents\\git\\NT106-Assignment\\source\\repos\\NT106-Assignment\\form_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|solutionrelative:form_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|c:\\users\\bean\\documents\\git\\nt106-assignment\\source\\repos\\nt106-assignment\\form_forgotpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|solutionrelative:form_forgotpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|C:\\Users\\bean\\Documents\\git\\NT106-Assignment\\source\\repos\\NT106-Assignment\\form_signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|solutionrelative:form_signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|C:\\Users\\bean\\Documents\\git\\NT106-Assignment\\source\\repos\\NT106-Assignment\\form_signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|solutionrelative:form_signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|c:\\users\\bean\\documents\\git\\nt106-assignment\\source\\repos\\nt106-assignment\\form_client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|solutionrelative:form_client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|c:\\users\\bean\\documents\\git\\nt106-assignment\\source\\repos\\nt106-assignment\\form_client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|solutionrelative:form_client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|c:\\users\\bean\\documents\\git\\nt106-assignment\\source\\repos\\nt106-assignment\\form_resetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|solutionrelative:form_resetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|c:\\users\\bean\\documents\\git\\nt106-assignment\\source\\repos\\nt106-assignment\\form_client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|solutionrelative:form_client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|C:\\Users\\bean\\Documents\\git\\NT106-Assignment\\source\\repos\\NT106-Assignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|c:\\users\\bean\\documents\\git\\nt106-assignment\\source\\repos\\nt106-assignment\\form_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|solutionrelative:form_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|c:\\users\\bean\\documents\\git\\nt106-assignment\\source\\repos\\nt106-assignment\\form_forgotpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|solutionrelative:form_forgotpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|C:\\Users\\bean\\Documents\\git\\NT106-Assignment\\source\\repos\\NT106-Assignment\\form_signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|solutionrelative:form_signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|c:\\users\\bean\\documents\\git\\nt106-assignment\\source\\repos\\nt106-assignment\\form_signup.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|solutionrelative:form_signup.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|c:\\users\\bean\\documents\\git\\nt106-assignment\\source\\repos\\nt106-assignment\\form_login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|solutionrelative:form_login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|C:\\Users\\bean\\Documents\\git\\NT106-Assignment\\source\\repos\\NT106-Assignment\\form_signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|solutionrelative:form_signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,82 +66,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Form_SignUp.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\bean\\Documents\\git\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Form_SignUp.Designer.cs",
-              "RelativeDocumentMoniker": "Form_SignUp.Designer.cs",
-              "ToolTip": "C:\\Users\\bean\\Documents\\git\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Form_SignUp.Designer.cs",
-              "RelativeToolTip": "Form_SignUp.Designer.cs",
-              "ViewState": "AgIAACcBAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T18:18:22.468Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "Form_Login.Designer.cs",
               "DocumentMoniker": "C:\\Users\\bean\\Documents\\git\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Form_Login.Designer.cs",
               "RelativeDocumentMoniker": "Form_Login.Designer.cs",
               "ToolTip": "C:\\Users\\bean\\Documents\\git\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Form_Login.Designer.cs",
               "RelativeToolTip": "Form_Login.Designer.cs",
-              "ViewState": "AgIAAPkAAAAAAAAAAAAjwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-30T18:17:27.346Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form_ForgotPassword.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\bean\\Documents\\git\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Form_ForgotPassword.cs",
-              "RelativeDocumentMoniker": "Form_ForgotPassword.cs",
-              "ToolTip": "C:\\Users\\bean\\Documents\\git\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Form_ForgotPassword.cs [Design]",
-              "RelativeToolTip": "Form_ForgotPassword.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T17:47:25.303Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Form_Client.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\bean\\Documents\\git\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Form_Client.cs",
-              "RelativeDocumentMoniker": "Form_Client.cs",
-              "ToolTip": "C:\\Users\\bean\\Documents\\git\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Form_Client.cs [Design]",
-              "RelativeToolTip": "Form_Client.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T17:39:02.47Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form_Login.cs",
-              "DocumentMoniker": "C:\\Users\\bean\\Documents\\git\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Form_Login.cs",
-              "RelativeDocumentMoniker": "Form_Login.cs",
-              "ToolTip": "C:\\Users\\bean\\Documents\\git\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Form_Login.cs",
-              "RelativeToolTip": "Form_Login.cs",
-              "ViewState": "AgIAACwBAAAAAAAAAIA7wEcBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T04:35:13.42Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form_Login.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\bean\\Documents\\git\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Form_Login.cs",
-              "RelativeDocumentMoniker": "Form_Login.cs",
-              "ToolTip": "C:\\Users\\bean\\Documents\\git\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Form_Login.cs [Design]",
-              "RelativeToolTip": "Form_Login.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T17:22:10.448Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "Form_SignUp.cs",
               "DocumentMoniker": "C:\\Users\\bean\\Documents\\git\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Form_SignUp.cs",
               "RelativeDocumentMoniker": "Form_SignUp.cs",
@@ -154,32 +92,70 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form_SignUp.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\bean\\Documents\\git\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Form_SignUp.cs",
-              "RelativeDocumentMoniker": "Form_SignUp.cs",
-              "ToolTip": "C:\\Users\\bean\\Documents\\git\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Form_SignUp.cs [Design]",
-              "RelativeToolTip": "Form_SignUp.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T05:53:58.772Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "Form_Client.cs",
               "DocumentMoniker": "C:\\Users\\bean\\Documents\\git\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Form_Client.cs",
               "RelativeDocumentMoniker": "Form_Client.cs",
               "ToolTip": "C:\\Users\\bean\\Documents\\git\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Form_Client.cs",
               "RelativeToolTip": "Form_Client.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-30T17:43:10.067Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\bean\\Documents\\git\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\bean\\Documents\\git\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T04:43:00.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form_Client.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\bean\\Documents\\git\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Form_Client.cs",
+              "RelativeDocumentMoniker": "Form_Client.cs",
+              "ToolTip": "C:\\Users\\bean\\Documents\\git\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Form_Client.cs [Design]",
+              "RelativeToolTip": "Form_Client.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T17:39:02.47Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form_ForgotPassword.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\bean\\Documents\\git\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Form_ForgotPassword.cs",
+              "RelativeDocumentMoniker": "Form_ForgotPassword.cs",
+              "ToolTip": "C:\\Users\\bean\\Documents\\git\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Form_ForgotPassword.cs [Design]",
+              "RelativeToolTip": "Form_ForgotPassword.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T17:47:25.303Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "Form_SignUp.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\bean\\Documents\\git\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Form_SignUp.Designer.cs",
+              "RelativeDocumentMoniker": "Form_SignUp.Designer.cs",
+              "ToolTip": "C:\\Users\\bean\\Documents\\git\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Form_SignUp.Designer.cs",
+              "RelativeToolTip": "Form_SignUp.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEBAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T18:18:22.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Form_ResetPassword.cs [Design]",
               "DocumentMoniker": "C:\\Users\\bean\\Documents\\git\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Form_ResetPassword.cs",
               "RelativeDocumentMoniker": "Form_ResetPassword.cs",
@@ -191,15 +167,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\bean\\Documents\\git\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\bean\\Documents\\git\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Form_Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\bean\\Documents\\git\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Form_Login.cs",
+              "RelativeDocumentMoniker": "Form_Login.cs",
+              "ToolTip": "C:\\Users\\bean\\Documents\\git\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Form_Login.cs [Design]",
+              "RelativeToolTip": "Form_Login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T04:43:00.935Z"
+              "WhenOpened": "2025-09-29T17:22:10.448Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form_SignUp.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\bean\\Documents\\git\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Form_SignUp.cs",
+              "RelativeDocumentMoniker": "Form_SignUp.cs",
+              "ToolTip": "C:\\Users\\bean\\Documents\\git\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Form_SignUp.cs [Design]",
+              "RelativeToolTip": "Form_SignUp.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T05:53:58.772Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form_Login.cs",
+              "DocumentMoniker": "C:\\Users\\bean\\Documents\\git\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Form_Login.cs",
+              "RelativeDocumentMoniker": "Form_Login.cs",
+              "ToolTip": "C:\\Users\\bean\\Documents\\git\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Form_Login.cs",
+              "RelativeToolTip": "Form_Login.cs",
+              "ViewState": "AgIAAO4AAAAAAAAAAAAYwAUBAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T04:35:13.42Z",
+              "EditorCaption": ""
             }
           ]
         },
