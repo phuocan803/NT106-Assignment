@@ -2,6 +2,8 @@
 using System.Drawing;
 using System.Data.SqlClient; // Thêm thư viện kết nối SQL
 //using System.Drawing; 
+using System.Security.Cryptography;
+using System.Text;
 using System.Windows.Forms;
 
 namespace NT106_Assignment
@@ -10,7 +12,7 @@ namespace NT106_Assignment
     {
         // Chuỗi kết nối SQL Server - Dựa trên SSMS connection string  - lầy từ ssms
         private string connectionString = "Data Source=localhost;Database=NT106_Assignment;Integrated Security=True;Encrypt=True;TrustServerCertificate=True;";
-        
+
         public Form_Login()
         {
             InitializeComponent();
@@ -31,7 +33,7 @@ namespace NT106_Assignment
 
             this.Location = new Point(x, y);
         }
-                
+
         // Phương thức kiểm tra kết nối database
         private bool TestDatabaseConnection()
         {
@@ -58,17 +60,29 @@ namespace NT106_Assignment
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
-                    string query = "SELECT COUNT(*) FROM Users WHERE Username = @username AND Password = @password";
-                    
+                    // Lấy cả password hash và salt
+                    string query = "SELECT Password, Salt FROM Users WHERE Username = @username";
+
                     using (SqlCommand command = new SqlCommand(query, connection))
                     {
                         command.Parameters.AddWithValue("@username", username);
-                        command.Parameters.AddWithValue("@password", password);
-                        
-                        int userCount = (int)command.ExecuteScalar();
-                        return userCount > 0;
+
+                        using (SqlDataReader reader = command.ExecuteReader())
+                        {
+                            if (reader.Read())
+                            {
+                                string storedHash = reader["Password"].ToString();
+                                string storedSalt = reader["Salt"].ToString();
+
+                                // Hash password người dùng nhập với salt đã lưu
+                                string inputHash = HashPassword(password, storedSalt);
+
+                                return inputHash == storedHash;
+                            }
+                        }
                     }
                 }
+                return false;
             }
             catch (Exception ex)
             {
@@ -91,12 +105,13 @@ namespace NT106_Assignment
                             Id INT IDENTITY(1,1) PRIMARY KEY,
                             Username NVARCHAR(50) NOT NULL UNIQUE,
                             Password NVARCHAR(255) NOT NULL,
+                            Salt NVARCHAR(255) NOT NULL,
                             Email NVARCHAR(100),
                             FullName NVARCHAR(100),
                             PhoneNumber NVARCHAR(20),
                             CreatedDate DATETIME DEFAULT GETDATE()
                         )";
-                    
+
                     using (SqlCommand command = new SqlCommand(createTableQuery, connection))
                     {
                         command.ExecuteNonQuery();
@@ -117,18 +132,24 @@ namespace NT106_Assignment
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
-                    
-                    // Kiểm tra xem user admin đã tồn tại chưa
+
                     string checkQuery = "SELECT COUNT(*) FROM Users WHERE Username = 'admin'";
                     using (SqlCommand checkCommand = new SqlCommand(checkQuery, connection))
                     {
                         int adminExists = (int)checkCommand.ExecuteScalar();
-                        
+
                         if (adminExists == 0)
                         {
-                            string insertQuery = "INSERT INTO Users (Username, Password, Email) VALUES ('admin', '123', 'admin@example.com')";
+                            string salt = GenerateSalt();
+                            string hashedPassword = HashPassword("123", salt);
+
+                            string insertQuery = "INSERT INTO Users (Username, Password, Salt, Email) VALUES (@username, @password, @salt, @email)";
                             using (SqlCommand insertCommand = new SqlCommand(insertQuery, connection))
                             {
+                                insertCommand.Parameters.AddWithValue("@username", "admin");
+                                insertCommand.Parameters.AddWithValue("@password", hashedPassword);
+                                insertCommand.Parameters.AddWithValue("@salt", salt);
+                                insertCommand.Parameters.AddWithValue("@email", "admin@example.com");
                                 insertCommand.ExecuteNonQuery();
                             }
                         }
@@ -140,7 +161,7 @@ namespace NT106_Assignment
                 MessageBox.Show("Lỗi thêm user mặc định: " + ex.Message);
             }
         }
-                
+
         // Bước 3: Kết nối đến SQL Server - Method theo hướng dẫn (FIX: Sử dụng cùng connection string)
         private void ConnectToDatabase()
         {
@@ -165,17 +186,17 @@ namespace NT106_Assignment
             {
                 // Kết nối đến master database để tạo database mới - dựa trên SSMS connection
                 string masterConnectionString = "Data Source=localhost;Database=master;Integrated Security=True;Encrypt=True;TrustServerCertificate=True;";
-                
+
                 using (SqlConnection connection = new SqlConnection(masterConnectionString))
                 {
                     connection.Open();
-                    
+
                     // Kiểm tra database đã tồn tại chưa
                     string checkDbQuery = "SELECT COUNT(*) FROM sys.databases WHERE name = 'NT106_Assignment'";
                     using (SqlCommand checkCommand = new SqlCommand(checkDbQuery, connection))
                     {
                         int dbExists = (int)checkCommand.ExecuteScalar();
-                        
+
                         if (dbExists == 0)
                         {
                             // Tạo database mới
@@ -194,7 +215,7 @@ namespace NT106_Assignment
                 MessageBox.Show("Lỗi tạo database: " + ex.Message);
             }
         }
-        
+
         // Method test kết nối đơn giản - sử dụng SSMS connection
         private void TestSQLServerConnection()
         {
@@ -205,7 +226,7 @@ namespace NT106_Assignment
                 using (SqlConnection connection = new SqlConnection(masterConnection))
                 {
                     connection.Open();
-                    
+
                     // Lấy thông tin SQL Server
                     string query = "SELECT @@SERVERNAME as ServerName, @@VERSION as Version";
                     using (SqlCommand command = new SqlCommand(query, connection))
@@ -218,7 +239,7 @@ namespace NT106_Assignment
                                                    $"Server: {reader["ServerName"]}\n" +
                                                    $"Connection: Windows Authentication\n" +
                                                    $"Version: {reader["Version"].ToString().Substring(0, 50)}...";
-                                
+
                                 MessageBox.Show(serverInfo, "SQL Server Connected");
                                 return;
                             }
@@ -232,7 +253,7 @@ namespace NT106_Assignment
                                $"Kiểm tra:\n" +
                                $"1. SQL Server service đang chạy\n" +
                                $"2. Windows Authentication được phép\n" +
-                               $"3. User hiện tại có quyền truy cập SQL Server", 
+                               $"3. User hiện tại có quyền truy cập SQL Server",
                                "Connection Error");
             }
         }
@@ -252,7 +273,7 @@ namespace NT106_Assignment
                 return;
             }
 
-            try 
+            try
             {
                 // Tạo database và setup một lần
                 CreateDatabaseIfNotExists();
@@ -297,7 +318,29 @@ namespace NT106_Assignment
             //    TextBox_Pass.Focus();
             //}
         }
-           
+
+        // Tạo salt ngẫu nhiên
+        private string GenerateSalt()
+        {
+            byte[] saltBytes = new byte[32];
+            using (var rng = RandomNumberGenerator.Create())
+            {
+                rng.GetBytes(saltBytes);
+            }
+            return Convert.ToBase64String(saltBytes);
+        }
+
+        // Hash password với SHA256 + Salt
+        private string HashPassword(string password, string salt)
+        {
+            using (SHA256 sha256 = SHA256.Create())
+            {
+                string saltedPassword = password + salt;
+                byte[] bytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(saltedPassword));
+                return Convert.ToBase64String(bytes);
+            }
+        }
+
         private void Button_CreateAcc_Click(object sender, EventArgs e)
         {
             Form_SignUp signupForm = new Form_SignUp(this.Location, this.Size);
