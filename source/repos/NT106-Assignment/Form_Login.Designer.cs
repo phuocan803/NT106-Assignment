@@ -70,7 +70,7 @@ namespace NT106_Assignment
             this.Panel_LOGIN.Controls.Add(this.Label_Acc);
             this.Panel_LOGIN.Controls.Add(this.Label_Pass);
             this.Panel_LOGIN.Location = new System.Drawing.Point(237, 46);
-            this.Panel_LOGIN.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Panel_LOGIN.Margin = new System.Windows.Forms.Padding(2);
             this.Panel_LOGIN.Name = "Panel_LOGIN";
             this.Panel_LOGIN.Size = new System.Drawing.Size(286, 381);
             this.Panel_LOGIN.TabIndex = 6;
@@ -83,7 +83,7 @@ namespace NT106_Assignment
             this.Button_CreateAcc.Font = new System.Drawing.Font("Segoe UI Black", 9F, System.Drawing.FontStyle.Bold);
             this.Button_CreateAcc.ForeColor = System.Drawing.Color.RoyalBlue;
             this.Button_CreateAcc.Location = new System.Drawing.Point(90, 323);
-            this.Button_CreateAcc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Button_CreateAcc.Margin = new System.Windows.Forms.Padding(2);
             this.Button_CreateAcc.Name = "Button_CreateAcc";
             this.Button_CreateAcc.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.Button_CreateAcc.Size = new System.Drawing.Size(106, 36);
@@ -101,7 +101,7 @@ namespace NT106_Assignment
             this.Button_LOGIN.Font = new System.Drawing.Font("Segoe UI Black", 9F, System.Drawing.FontStyle.Bold);
             this.Button_LOGIN.ForeColor = System.Drawing.Color.RoyalBlue;
             this.Button_LOGIN.Location = new System.Drawing.Point(99, 253);
-            this.Button_LOGIN.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Button_LOGIN.Margin = new System.Windows.Forms.Padding(2);
             this.Button_LOGIN.Name = "Button_LOGIN";
             this.Button_LOGIN.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.Button_LOGIN.Size = new System.Drawing.Size(88, 29);
@@ -115,7 +115,7 @@ namespace NT106_Assignment
             // 
             this.TextBox_Pass.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.TextBox_Pass.Location = new System.Drawing.Point(50, 154);
-            this.TextBox_Pass.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TextBox_Pass.Margin = new System.Windows.Forms.Padding(2);
             this.TextBox_Pass.Name = "TextBox_Pass";
             this.TextBox_Pass.PasswordChar = '*';
             this.TextBox_Pass.Size = new System.Drawing.Size(190, 20);
@@ -125,7 +125,7 @@ namespace NT106_Assignment
             // 
             this.TextBox_Acc.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.TextBox_Acc.Location = new System.Drawing.Point(51, 109);
-            this.TextBox_Acc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TextBox_Acc.Margin = new System.Windows.Forms.Padding(2);
             this.TextBox_Acc.Name = "TextBox_Acc";
             this.TextBox_Acc.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.TextBox_Acc.Size = new System.Drawing.Size(190, 20);
@@ -155,6 +155,7 @@ namespace NT106_Assignment
             this.LinkLb_ForgotPass.TabIndex = 32;
             this.LinkLb_ForgotPass.TabStop = true;
             this.LinkLb_ForgotPass.Text = "Forgot Password ?";
+            this.LinkLb_ForgotPass.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkLb_ForgotPass_LinkClicked);
             // 
             // Label_Login
             // 
@@ -175,7 +176,7 @@ namespace NT106_Assignment
             this.Panel_Captcha.Controls.Add(this.CheckBox_Catpcha);
             this.Panel_Captcha.Controls.Add(this.Label_Captcha);
             this.Panel_Captcha.Location = new System.Drawing.Point(50, 183);
-            this.Panel_Captcha.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Panel_Captcha.Margin = new System.Windows.Forms.Padding(2);
             this.Panel_Captcha.Name = "Panel_Captcha";
             this.Panel_Captcha.Size = new System.Drawing.Size(189, 30);
             this.Panel_Captcha.TabIndex = 31;
@@ -184,7 +185,7 @@ namespace NT106_Assignment
             // 
             this.CheckBox_Catpcha.AutoSize = true;
             this.CheckBox_Catpcha.Location = new System.Drawing.Point(10, 9);
-            this.CheckBox_Catpcha.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CheckBox_Catpcha.Margin = new System.Windows.Forms.Padding(2);
             this.CheckBox_Catpcha.Name = "CheckBox_Catpcha";
             this.CheckBox_Catpcha.Size = new System.Drawing.Size(15, 14);
             this.CheckBox_Catpcha.TabIndex = 15;
@@ -237,7 +238,7 @@ namespace NT106_Assignment
             this.ClientSize = new System.Drawing.Size(764, 465);
             this.Controls.Add(this.Panel_LOGIN);
             this.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form_Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "KayArt";

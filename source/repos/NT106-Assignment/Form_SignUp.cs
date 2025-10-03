@@ -182,6 +182,16 @@ namespace NT106_Assignment
             loginForm.Show();
             this.Hide();
         }
+
+        private void TextBox_PassW_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TextBox_ConfirmPass_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }

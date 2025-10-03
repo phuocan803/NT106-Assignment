@@ -322,6 +322,14 @@ namespace NT106_Assignment
         {
             // Empty event handler for designer
         }
+
+        private void LinkLb_ForgotPass_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Form_ForgotPassword forgotPasswordForm = new Form_ForgotPassword();
+            forgotPasswordForm.ShowDialog(); 
+            this.Show(); 
+
+        }
     }
 }
 

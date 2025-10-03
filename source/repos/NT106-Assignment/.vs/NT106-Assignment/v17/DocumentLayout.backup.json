@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< Updated upstream
   "WorkspaceRootPath": "C:\\Users\\An\\Documents\\NT106-Assignment\\source\\repos\\NT106-Assignment\\",
   "Documents": [
     {
@@ -9,6 +10,33 @@
     {
       "AbsoluteMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|C:\\Users\\An\\Documents\\NT106-Assignment\\source\\repos\\NT106-Assignment\\form_client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|solutionrelative:form_client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+  "WorkspaceRootPath": "C:\\Users\\An\\LTMang\\NT106-Assignment\\source\\repos\\NT106-Assignment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|C:\\Users\\An\\LTMang\\NT106-Assignment\\source\\repos\\NT106-Assignment\\form_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|solutionrelative:form_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|c:\\users\\an\\ltmang\\nt106-assignment\\source\\repos\\nt106-assignment\\form_signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|solutionrelative:form_signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|c:\\users\\an\\ltmang\\nt106-assignment\\source\\repos\\nt106-assignment\\form_resetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|solutionrelative:form_resetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|C:\\Users\\An\\LTMang\\NT106-Assignment\\source\\repos\\NT106-Assignment\\form_resetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|solutionrelative:form_resetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|C:\\Users\\An\\LTMang\\NT106-Assignment\\source\\repos\\NT106-Assignment\\form_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|solutionrelative:form_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|c:\\users\\an\\ltmang\\nt106-assignment\\source\\repos\\nt106-assignment\\form_resetpassword.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F6A4902-3E06-4149-A3B6-DB500B721BE3}|Client.csproj|solutionrelative:form_resetpassword.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> Stashed changes
     }
   ],
   "DocumentGroupContainers": [
@@ -18,10 +46,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< Updated upstream
           "SelectedChildIndex": 0,
+=======
+          "SelectedChildIndex": 5,
+>>>>>>> Stashed changes
           "Children": [
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 0,
               "Title": "Form_Client.Designer.cs",
               "DocumentMoniker": "C:\\Users\\An\\Documents\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Form_Client.Designer.cs",
@@ -31,11 +64,60 @@
               "ViewState": "AgIAABcAAAAAAAAAAAAQwCsAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-30T19:46:03.835Z",
+=======
+              "DocumentIndex": 2,
+              "Title": "Form_ResetPassword.cs",
+              "DocumentMoniker": "C:\\Users\\An\\LTMang\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Form_ResetPassword.cs",
+              "RelativeDocumentMoniker": "Form_ResetPassword.cs",
+              "ToolTip": "C:\\Users\\An\\LTMang\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Form_ResetPassword.cs*",
+              "RelativeToolTip": "Form_ResetPassword.cs*",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAqwJoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T15:50:44.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form_ResetPassword.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\An\\LTMang\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Form_ResetPassword.cs",
+              "RelativeDocumentMoniker": "Form_ResetPassword.cs",
+              "ToolTip": "C:\\Users\\An\\LTMang\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Form_ResetPassword.cs [Design]*",
+              "RelativeToolTip": "Form_ResetPassword.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T17:39:04.311Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form_Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\An\\LTMang\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Form_Login.cs",
+              "RelativeDocumentMoniker": "Form_Login.cs",
+              "ToolTip": "C:\\Users\\An\\LTMang\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Form_Login.cs [Design]*",
+              "RelativeToolTip": "Form_Login.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T17:22:10.448Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form_Login.cs",
+              "DocumentMoniker": "C:\\Users\\An\\LTMang\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Form_Login.cs",
+              "RelativeDocumentMoniker": "Form_Login.cs",
+              "ToolTip": "C:\\Users\\An\\LTMang\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Form_Login.cs*",
+              "RelativeToolTip": "Form_Login.cs*",
+              "ViewState": "AgIAAFABAAAAAAAAAAAWwHcBAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T04:35:13.42Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+<<<<<<< Updated upstream
               "Title": "Form_Client.cs",
               "DocumentMoniker": "C:\\Users\\An\\Documents\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Form_Client.cs",
               "RelativeDocumentMoniker": "Form_Client.cs",
@@ -44,6 +126,40 @@
               "ViewState": "AgIAAM0AAAAAAAAAAAAUwN8AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-30T17:43:10.067Z"
+=======
+              "Title": "Form_SignUp.cs",
+              "DocumentMoniker": "C:\\Users\\An\\LTMang\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Form_SignUp.cs",
+              "RelativeDocumentMoniker": "Form_SignUp.cs",
+              "ToolTip": "C:\\Users\\An\\LTMang\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Form_SignUp.cs",
+              "RelativeToolTip": "Form_SignUp.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAkwIEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T16:02:00.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form_ResetPassword.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\An\\LTMang\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Form_ResetPassword.Designer.cs",
+              "RelativeDocumentMoniker": "Form_ResetPassword.Designer.cs",
+              "ToolTip": "C:\\Users\\An\\LTMang\\NT106-Assignment\\source\\repos\\NT106-Assignment\\Form_ResetPassword.Designer.cs",
+              "RelativeToolTip": "Form_ResetPassword.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T15:50:21.6Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 112,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+>>>>>>> Stashed changes
             }
           ]
         }
